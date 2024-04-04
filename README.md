@@ -1,7 +1,7 @@
 # My Green Social Club
 
 <p align="center">
-  <img src="https://sc-janus.de/wp-content/uploads/2023/12/wandern-advent-04.jpg" width="100%" title="hover text">
+  <img src="https://sc-janus.de/wp-content/uploads/2023/12/sport-wandern.jpg" width="100%" title="hover text">
 </p>
 
 ## Introduction
@@ -44,27 +44,31 @@ The Green Social Club is here to improve access to the outdoors for newcomers in
 
 ## Getting Started
 
-1. **Clone the Repository**:
+To run the website locally:
 
-   ```bash
-   git clone https://github.com/your-username/green-social-club.git
+1. Clone the repository:
 
+    ```
+    git clone https://github.com/your-username/green-social-club-website.git
+    ```
 
-## Getting Started
+2. Install dependencies:
 
-1. **Clone the Repository**:
+    ```
+    cd green-social-club-website
+    npm install
+    ```
 
-   ```bash
-   git clone https://github.com/your-username/green-social-club.git
+3. Run the development server:
 
+    ```
+    npm start
+    ```
 
-2. **Install Dependencies**:
+4. Access the website in your browser at `http://localhost:3000`.
 
-      ```bash
-   cd green-social-club
-   npm install
-   
-3. **Run the Application:**:
+## Contributors
 
-      ```bash
-   npm start
+- [Ali Othman](https://github.com/AliOthman0934)
+- [Mentor: Kerem İlhan](https://github.com/keremilhan)
+  
