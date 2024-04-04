@@ -1,4 +1,6 @@
-# ![My Green Social Club](https://www.bigmotive.com/wp-content/uploads/2022/08/Wandertag-3.gif)
+# ![My Green Social Club]
+
+![My Green Social Club](https://www.bigmotive.com/wp-content/uploads/2022/08/Wandertag-3.gif)
 
 ## Introduction
 
