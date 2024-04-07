@@ -1,28 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { DataContext } from './DataContext/DataContext';
 
 function UpcomingWalks() {
-    const [activities, setActivities] = useState([]);
+    const { activities } = useContext(DataContext);
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await fetch('https://http-ce833-default-rtdb.firebaseio.com/events.json');
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                const data = await response.json();
-                setActivities(data);
-            } catch (error) {
-                console.error('Error fetching data:', error);
-            }
-            
-        };
-
-        fetchData();
-    }, []);
-
-        console.log(activities)
     return (
         <section className="upcoming" id="upcoming">
             <div className="box-container">
@@ -49,7 +31,7 @@ function UpcomingWalks() {
                 {activities.map((activitie, index) => (
                     <div key={index} className="project-card">
                         <div className="image ">
-                            <img src={activitie.picture} alt="" className="img1" id="img1"/>
+                            <img src={activitie.picture} alt="" className="img1" id="img1" />
                         </div>
 
                         <div className="project-info">
@@ -66,10 +48,11 @@ function UpcomingWalks() {
                 ))}
             </div>
         </section>
-    );
+    )    
 }
 
 export default UpcomingWalks;
+
 
 
 

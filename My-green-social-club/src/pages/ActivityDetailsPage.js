@@ -1,15 +1,16 @@
-// ActivityDetailsPage.js
 import React from 'react';
-import { useParams } from 'react-router-dom';
-import ActivityDetails from '../components/ActivityDetails';
+import ActivityDetails from "../components/ActivityDetails";
+import { ActivityProvider } from '../components/DataContext/ActivityContext';
 
 function ActivityDetailsPage() {
-    const { id } = useParams();
     return (
-        <div>
-            <ActivityDetails id={id} />
-        </div>
+        <ActivityProvider>
+            <div>
+                <ActivityDetails />
+            </div>
+        </ActivityProvider>
     );
 }
 
 export default ActivityDetailsPage;
+
