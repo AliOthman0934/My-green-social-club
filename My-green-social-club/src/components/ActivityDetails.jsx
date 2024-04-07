@@ -1,27 +1,14 @@
-import React, { useState, useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
-
+import React ,{useEffect} from 'react';
+import { useActivityContext } from './DataContext/ActivityContext';
+import { Link , useParams } from 'react-router-dom';
 
 function ActivityDetails(props) {
     const { id } = useParams();
-    const [activityDetails, setActivityDetails] = useState(null);
+    const { activityDetails, fetchActivityDetails } = useActivityContext();
 
     useEffect(() => {
-        const fetchActivityDetails = async () => {
-            try {
-                const response = await fetch(`https://http-ce833-default-rtdb.firebaseio.com/events/${id}.json`);
-                if (!response.ok) {
-                    throw new Error("Failed to fetch activity details");
-                }
-                const data = await response.json();
-                setActivityDetails(data);
-            } catch (error) {
-                console.error("Error fetching activity details:", error);
-            }
-        };
-
-        fetchActivityDetails();
-    }, [id]);
+        fetchActivityDetails(id);
+    }, [id, fetchActivityDetails]);
 
     if (!activityDetails) {
         return <div>Loading...</div>;
@@ -30,7 +17,6 @@ function ActivityDetails(props) {
     return (
         <section className="activity-details" id="activity-details">
             <div className="activity-details-container">
-                {/* Left Content */}
                 <div className="left">
                     <h2 className="details-title">{activityDetails.title}</h2>
                     <p className="details-description">{activityDetails.description}</p>
@@ -55,9 +41,8 @@ function ActivityDetails(props) {
                             ))}
                         </ul>
                     </div>
-                    <Link to="/activity/Rigester">Rigester</Link>
+                    <Link to="/activity/Rigester" className="link-to-Rigester">Register</Link>
                 </div>
-                {/* Right Image */}
                 <div className="right">
                     <Link to="/" className="link-to-home">Back Home</Link>
                     <img src={activityDetails.picture} alt="" className="activity-image" />
@@ -68,6 +53,8 @@ function ActivityDetails(props) {
 }
 
 export default ActivityDetails;
+
+
 
 
 

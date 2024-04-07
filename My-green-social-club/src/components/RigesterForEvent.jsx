@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 function RigesterForEvent(props) {
     return (
-        <section className="sign-up" id="sign-up">
+        <section className="sign-up rigester-page" id="sign-up">
             <div className="sign-up-container">
                 <div className="left">
                     <div className="login-text">
@@ -28,8 +29,12 @@ function RigesterForEvent(props) {
                             </div>
                         </form>
                     </div>
+                    <div>
+                        <Link to="/" className="link-to-home rigster-to-home">Back Home</Link>
+                    </div>
                 </div>
                 <div className="right">
+
                     <img src="https://i.postimg.cc/WbgQvDq7/habibi.jpg" alt="" />
                 </div>
             </div>

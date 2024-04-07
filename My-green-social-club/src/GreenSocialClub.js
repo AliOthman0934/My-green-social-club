@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-// import { BrowserRouter as Routes, Route, BrowserRouter } from 'react-router-dom';
 import Header from './components/Header';
 import UpcomingWalks from './components/UpcomingWalks';
 import About from "./components/About";
