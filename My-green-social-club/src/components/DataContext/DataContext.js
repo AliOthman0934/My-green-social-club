@@ -29,4 +29,4 @@ const DataContextProvider = ({ children }) => {
     );
 };
 
-export { DataContext, DataContextProvider };
+export { DataContext, DataContextProvider  };

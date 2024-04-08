@@ -1,6 +1,8 @@
 import React ,{useEffect} from 'react';
 import { useActivityContext } from './DataContext/ActivityContext';
 import { Link , useParams } from 'react-router-dom';
+import Loader from './Loader';
+
 
 function ActivityDetails(props) {
     const { id } = useParams();
@@ -10,8 +12,10 @@ function ActivityDetails(props) {
         fetchActivityDetails(id);
     }, [id, fetchActivityDetails]);
 
+
+
     if (!activityDetails) {
-        return <div>Loading...</div>;
+        return <Loader></Loader>;
     }
 
     return (

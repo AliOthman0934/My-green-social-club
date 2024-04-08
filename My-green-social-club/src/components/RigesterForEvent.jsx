@@ -8,7 +8,7 @@ function RigesterForEvent(props) {
             <div className="sign-up-container">
                 <div className="left">
                     <div className="login-text">
-                        <p>Sign up for our newsletter to be the first to hear about upcoming walks and events!</p>
+                        <p>Register now for the event to secure your spot and stay informed about all the details!</p>
                     </div>
                     <div className="col-22 ">
                         <form action="" method="post">
