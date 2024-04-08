@@ -7,6 +7,8 @@ export const useActivityContext = () => useContext(ActivityContext);
 export const ActivityProvider = ({ children }) => {
     const [activityDetails, setActivityDetails] = useState(null);
 
+
+
     const fetchActivityDetails = async (id) => {
         try {
             const response = await fetch(`https://http-ce833-default-rtdb.firebaseio.com/events/${id}.json`);
