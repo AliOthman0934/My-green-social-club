@@ -1,12 +1,33 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { DataContext } from './DataContext/DataContext';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 function UpcomingWalks() {
     const { activities } = useContext(DataContext);
+    const containerRef = useRef(null);
+
+    useEffect(() => {
+        activities.forEach((activity, index) => {
+            gsap.from(`.project-card-${index}`, {
+                opacity: 0,
+                y: 50,
+                duration: 1.5,
+                scrollTrigger: {
+                    trigger: `.project-card-${index}`,
+                    start: 'top 80%',
+                    end: 'top 20%',
+                    toggleActions: 'play none none reverse',
+                },
+            });
+        });
+    }, [activities]);
 
     return (
-        <section className="upcoming" id="upcoming">
+        <section className="upcoming" id="upcoming" ref={containerRef}>
             <div className="box-container">
                 <div className="heading head2">
                     <h1>upcoming walks</h1>
@@ -28,30 +49,32 @@ function UpcomingWalks() {
                 </div>
             </div>
             <div className="content grid-container">
-                {activities.map((activitie, index) => (
-                    <div key={index} className="project-card">
+                {activities.map((activity, index) => (
+                    <div key={index} className={`project-card project-card-${index}`}>
                         <div className="image ">
-                            <img src={activitie.picture} alt="" className="img1" id="img1" />
+                            <img src={activity.picture} alt="" className="img1" id="img1" />
                         </div>
 
                         <div className="project-info">
                             <strong className="project-titel">
-                                <span>{activitie.title}</span>
-                                <Link to={`/activity/${activitie.id}`}>More Information</Link>
+                                <span>{activity.title}</span>
+                                <Link to={`/activity/${activity.id}`}>More Information</Link>
                             </strong>
                         </div>
 
                         <div className="description">
-                            <p className="project-cat">{activitie.description}</p>
+                            <p className="project-cat">{activity.description}</p>
                         </div>
                     </div>
                 ))}
             </div>
         </section>
-    )    
+    );
 }
 
 export default UpcomingWalks;
+
+
 
 
 
