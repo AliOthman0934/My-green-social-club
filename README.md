@@ -40,6 +40,7 @@ The Green Social Club is here to improve access to the outdoors for newcomers in
 - **React Router**: Library for handling routing in the React application.
 - **React Context API**: For managing global state such as user favorites.
 - **HTML/CSS**: Markup and styling languages for structuring and designing the user interface.
+- **Animations**: GSAP (GreenSock Animation Platform)
 - **JavaScript (ES6+)**: Programming language used for frontend logic.
 
 ## Getting Started
