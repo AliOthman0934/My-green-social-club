@@ -12,7 +12,6 @@ The Green Social Club is here to improve access to the outdoors for newcomers in
 
 - **Activity Listings**: Browse through a list of upcoming environmental activities and events.
 - **Activity Details**: View detailed information about each activity, including description, date, time, location, and organizer details.
-- **Favorite Activities**: Users can mark activities as favorites to easily access them later.
 - **Responsive Design**: The application is designed to work seamlessly across different devices and screen sizes.
 
 ## Home
