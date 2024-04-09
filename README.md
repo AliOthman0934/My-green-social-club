@@ -8,6 +8,8 @@
 
 The Green Social Club is here to improve access to the outdoors for newcomers in the Netherlands. We come together as brothers and sisters to explore nature, move our bodies, and connect. Our space is open for anyone new to the Netherlands and especially invites refugees and asylum seekers.
 
+note: this project is a continuation of my first HYF project and I hope to keep working on after my graduation.  
+
 ## Features
 
 - **Activity Listings**: Browse through a list of upcoming environmental activities and events.
