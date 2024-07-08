@@ -1,3 +1,6 @@
+// This code is related to fetching the data from firebase.
+//######################################################
+
 // import React, { createContext, useContext, useState } from 'react';
 
 // const ActivityContext = createContext();
@@ -30,6 +33,11 @@
 // };
 
 // export default ActivityProvider;
+
+
+
+// This code related to fetching the data from json file.
+//############################################### 
 
 import React, { createContext, useContext, useState } from 'react';
 
