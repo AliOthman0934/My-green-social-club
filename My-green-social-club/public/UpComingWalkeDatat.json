@@ -1,0 +1,287 @@
+[
+  {
+    "code_of_conduct": [
+      null,
+      "Respect the tranquility of the forest and fellow participants.",
+      "Refrain from disruptive behavior during meditation sessions.",
+      "Leave no trace: Dispose of waste responsibly.",
+      "Follow instructions from the meditation guide for a safe and enjoyable experience.",
+      "Refrain from using electronic devices during sessions."
+    ],
+    "date": "2024-09-18",
+    "description": "Unwind and reconnect with nature in our forest bathing meditation session. Experience the healing power of the forest and rejuvenate your mind, body, and soul.",
+    "id": 0,
+    "location": "Peaceful Forest Retreat, Serenity Valley",
+    "picture": "https://media.glamour.com/photos/65201c464683ed8f4d47663b/master/w_2560%2Cc_limit/190923-Waldbaden-Aufmacher.jpg",
+    "program_plan": {
+      "break": "11:30 AM - 12:00 PM",
+      "check_in": "9:00 AM",
+      "closing_reflection": "1:00 PM - 1:30 PM",
+      "guided_walk": "12:00 PM - 1:00 PM",
+      "meditation_session": "10:15 AM - 11:30 AM",
+      "start": "10:00 AM"
+    },
+    "title": "Forest Bathing Meditation"
+  },
+  {
+    "code_of_conduct": [
+      null,
+      "Stay on designated paths and respect trail markers.",
+      "Respect the knowledge and expertise of the guide.",
+      "Dispose of waste responsibly and keep the area clean.",
+      "Respect the natural habitat of wildlife and avoid disturbing them.",
+      "Follow safety instructions provided by the guide."
+    ],
+    "date": "2024-10-05",
+    "description": "Join us for a leisurely walk through fields of colorful wildflowers. Learn about local flora and enjoy the beauty of nature in bloom.",
+    "id": 1,
+    "location": "Wildflower Meadow, Blossom County",
+    "picture": "https://www.fredericpaulussen.be/wp-content/uploads/2019/08/Forest-bathing-in-South-Tyrol-becoming-calm-in-nature.png",
+    "program_plan": {
+      "Q&A": "12:30 PM - 1:00 PM",
+      "check_in": "9:30 AM",
+      "flora_education_session": "12:00 PM - 12:30 PM",
+      "guided_walk": "10:00 AM - 12:00 PM",
+      "start": "10:00 AM"
+    },
+    "title": "Wildflower Walk"
+  },
+  {
+    "code_of_conduct": [
+      null,
+      "Respect the environment and avoid causing damage while taking photographs.",
+      "Be respectful of other participants and their space while photographing.",
+      "Do not disturb wildlife while capturing images.",
+      "Follow safety instructions provided by workshop leaders.",
+      "Respect the privacy and consent of individuals who may be subjects of your photographs."
+    ],
+    "date": "2024-11-14",
+    "description": "Enhance your photography skills in our nature photography workshop. Capture stunning landscapes, wildlife, and more under the guidance of experienced photographers.",
+    "id": 2,
+    "location": "Nature Center, Shutterbug City",
+    "picture": "https://cdn.whistler.com/blog/wp-content/uploads/2020/07/24152453/forestbathing6.jpg",
+    "program_plan": {
+      "check_in": "8:30 AM",
+      "field_trip": "10:30 AM - 12:30 PM",
+      "introduction_to_photography": "9:00 AM - 10:30 AM",
+      "lunch_break": "12:30 PM - 1:30 PM",
+      "review_and_feedback": "1:30 PM - 3:00 PM",
+      "start": "9:00 AM"
+    },
+    "title": "Nature Photography Workshop"
+  },
+  {
+    "code_of_conduct": [
+      null,
+      "Wear appropriate safety gear at all times while kayaking.",
+      "Listen carefully to instructions from guides and follow safety protocols.",
+      "Respect wildlife and do not disturb animals during the kayaking adventure.",
+      "Dispose of waste responsibly and keep the waterways clean.",
+      "Help fellow participants and demonstrate good sportsmanship throughout the experience."
+    ],
+    "date": "2024-12-02",
+    "description": "Embark on a kayaking adventure along tranquil rivers and picturesque lakes. Explore hidden coves, spot wildlife, and enjoy the serenity of the water.",
+    "id": 3,
+    "location": "River Expedition, Paddle Paradise",
+    "picture": "https://www.midwestliving.com/thmb/EHZd32gxphc-R6MLE6AhnMfxJZ4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/woman-bridge-forest-stream-pictured-rock-6NQHNSFRqDo9OGIDJWbJtP-1dcdc6a2f9fd4b4ea4cc97ce81333892.jpg",
+    "program_plan": {
+      "check_in": "8:00 AM",
+      "explore_hidden_coves": "12:00 PM - 2:00 PM",
+      "kayaking_experience": "9:30 AM - 11:30 AM",
+      "return_to_base": "2:00 PM - 3:00 PM",
+      "safety_briefing": "9:00 AM - 9:30 AM",
+      "snack_break": "11:30 AM - 12:00 PM",
+      "start": "9:00 AM"
+    },
+    "title": "Kayaking Adventure"
+  },
+  {
+    "code_of_conduct": [
+      null,
+      "Stay on designated trails and respect trail markers.",
+      "Keep a safe distance from wildlife encountered during the trail run.",
+      "Stay hydrated and nourished throughout the challenge.",
+      "Help fellow participants and offer assistance if needed.",
+      "Notify event organizers or staff of any injuries or emergencies."
+    ],
+    "date": "2025-01-20",
+    "description": "Test your endurance in our trail running challenge. Navigate rugged terrain, conquer steep inclines, and experience the thrill of trail running.",
+    "id": 4,
+    "location": "Mountain Trail, Endurance Peaks",
+    "picture": "https://i.postimg.cc/FRTBTcq9/athena5.jpg",
+    "program_plan": {
+      "check_in": "7:00 AM",
+      "cool_down": "12:00 PM - 12:30 PM",
+      "group_reflection": "12:30 PM - 1:00 PM",
+      "refreshments": "11:30 AM - 12:00 PM",
+      "start": "8:00 AM",
+      "trail_running": "8:30 AM - 11:30 AM",
+      "warm_up": "8:00 AM - 8:30 AM"
+    },
+    "title": "Trail Running Challenge"
+  },
+  {
+    "code_of_conduct": [
+      null,
+      "Stay on designated paths and respect garden boundaries.",
+      "Do not pick or disturb plants during the tour.",
+      "Listen attentively to the guide and ask questions respectfully.",
+      "Dispose of waste properly and keep the garden clean.",
+      "Respect the peace and tranquility of the garden for all visitors."
+    ],
+    "date": "2025-02-08",
+    "description": "Explore the diverse flora of our local botanical garden in our guided tour. Discover rare plants, vibrant flowers, and tranquil garden landscapes.",
+    "id": 5,
+    "location": "Botanical Garden, Floral Haven",
+    "picture": "https://i.postimg.cc/6pnX1mVX/IMG-8572.jpg",
+    "program_plan": {
+      "Q&A": "1:30 PM - 2:00 PM",
+      "botanical_insights": "12:30 PM - 1:30 PM",
+      "break": "12:00 PM - 12:30 PM",
+      "check_in": "9:30 AM",
+      "guided_tour": "10:00 AM - 12:00 PM",
+      "start": "10:00 AM"
+    },
+    "title": "Botanical Garden Tour"
+  },
+  {
+    "code_of_conduct": [
+      null,
+      "Respect the tranquility of the surroundings during the session.",
+      "Refrain from distracting others during yoga and meditation.",
+      "Be punctual and arrive on time for the session.",
+      "Follow the instructions of the yoga instructor for a safe and enriching experience.",
+      "Maintain a positive and respectful attitude towards fellow participants."
+    ],
+    "date": "2025-03-17",
+    "description": "Start your day with a rejuvenating sunrise yoga session. Practice yoga poses amidst nature's beauty and welcome the new day with mindfulness and serenity.",
+    "id": 6,
+    "location": "Sunrise Point, Yoga Retreat",
+    "picture": "https://www.teapigs.co.uk/cdn/shop/articles/forest-holiday.jpg?v=1625155507",
+    "program_plan": {
+      "breakfast": "8:00 AM - 9:00 AM",
+      "check_in": "5:30 AM",
+      "meditation": "7:30 AM - 8:00 AM",
+      "start": "6:00 AM",
+      "sunrise_yoga_session": "6:00 AM - 7:30 AM"
+    },
+    "title": "Sunrise Yoga"
+  },
+  {
+    "code_of_conduct": [
+      null,
+      "Respect the natural environment and refrain from causing harm to plants or animals.",
+      "Be mindful of fellow participants' space and avoid disrupting others.",
+      "Dispose of waste responsibly and keep the area clean.",
+      "Listen attentively during sessions and participate respectfully.",
+      "Respect the privacy and confidentiality of others during sharing sessions."
+    ],
+    "date": "2025-04-09",
+    "description": "Express your creativity and connect with nature in our nature journaling workshop. Capture the beauty of the outdoors through art, writing, and reflection.",
+    "id": 7,
+    "location": "Nature Reserve, Creative Sanctuary",
+    "picture": "https://umd-today.transforms.svdcdn.com/production/hero/IMG_9873_1920x1080.jpg?w=1440&h=810&auto=compress%2Cformat&fit=crop&dm=1651701271&s=4ee108f6f4a3a8a9ee39ebecd859623b",
+    "program_plan": {
+      "break": "12:00 PM - 12:30 PM",
+      "check_in": "9:00 AM",
+      "guided_observation_and_sketching": "10:00 AM - 12:00 PM",
+      "introduction_to_journaling": "9:30 AM - 10:00 AM",
+      "sharing_and_discussion": "2:30 PM - 3:30 PM",
+      "start": "9:30 AM",
+      "writing_prompts_and_reflection": "12:30 PM - 2:30 PM"
+    },
+    "title": "Nature Journaling Workshop"
+  },
+  {
+    "code_of_conduct": [
+      null,
+      "Respect cooking equipment and follow safety guidelines.",
+      "Cooperate with fellow participants and share cooking responsibilities.",
+      "Dispose of waste properly and maintain cleanliness in the cooking area.",
+      "Listen attentively to instructions from the cooking instructor.",
+      "Enjoy the cooking experience and savor the outdoor feast together."
+    ],
+    "date": "2025-05-25",
+    "description": "Learn the art of outdoor cooking in our hands-on class. Discover delicious recipes, cooking techniques, and enjoy a tasty feast in the great outdoors.",
+    "id": 8,
+    "location": "Cooking Campfire, Culinary Haven",
+    "picture": "https://www.vmcdn.ca/f/files/burlingtontoday/images/health/2023-08-02-forest-bathingmp-2.jpg;w=960;h=640;bgcolor=000000",
+    "program_plan": {
+      "check_in": "10:00 AM",
+      "cooking_class": "10:30 AM - 12:30 PM",
+      "lunch": "12:30 PM - 1:30 PM",
+      "recipe_sharing": "1:30 PM - 2:30 PM",
+      "start": "10:30 AM"
+    },
+    "title": "Outdoor Cooking Class"
+  },
+  {
+    "code_of_conduct": [
+      null,
+      "Respect the natural environment and avoid damaging flora or fauna.",
+      "Stay on designated trails and follow safety guidelines.",
+      "Work as a team and help others during the scavenger hunt.",
+      "Dispose of waste properly and leave no trace of the activity.",
+      "Celebrate the adventure with sportsmanship and camaraderie during the award ceremony."
+    ],
+    "date": "2025-06-11",
+    "description": "Join us for a fun-filled nature scavenger hunt. Search for hidden treasures, solve clues, and embark on an exciting adventure through the wilderness.",
+    "id": 9,
+    "location": "Forest Trail, Adventure Park",
+    "picture": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/80/82/5d/ancient-cedars-trail.jpg?w=1200&h=1200&s=1",
+    "program_plan": {
+      "award_ceremony": "1:00 PM - 2:00 PM",
+      "check_in": "9:00 AM",
+      "lunch_break": "12:00 PM - 1:00 PM",
+      "scavenger_hunt": "9:30 AM - 12:00 PM",
+      "start": "9:30 AM"
+    },
+    "title": "Nature Scavenger Hunt"
+  },
+  {
+    "code_of_conduct": [
+      null,
+      "Respect the natural environment and avoid damaging flora or fauna.",
+      "Stay on designated trails and follow safety guidelines.",
+      "Work as a team and help others during the scavenger hunt.",
+      "Dispose of waste properly and leave no trace of the activity.",
+      "Celebrate the adventure with sportsmanship and camaraderie during the award ceremony."
+    ],
+    "date": "2025-06-11",
+    "description": "Join us for a fun-filled nature scavenger hunt. Search for hidden treasures, solve clues, and embark on an exciting adventure through the wilderness.",
+    "id": 10,
+    "location": "Forest Trail, Adventure Park",
+    "picture": "https://i0.wp.com/whistlermuseum.org/wp-content/uploads/2016/07/claire-ruddy-wildfire.jpg?resize=640%2C853&ssl=1",
+    "program_plan": {
+      "award_ceremony": "1:00 PM - 2:00 PM",
+      "check_in": "9:00 AM",
+      "lunch_break": "12:00 PM - 1:00 PM",
+      "scavenger_hunt": "9:30 AM - 12:00 PM",
+      "start": "9:30 AM"
+    },
+    "title": "Nature Scavenger Hunt"
+  },
+  {
+    "code_of_conduct": [
+      null,
+      "Respect the natural environment and avoid damaging flora or fauna.",
+      "Stay on designated trails and follow safety guidelines.",
+      "Work as a team and help others during the scavenger hunt.",
+      "Dispose of waste properly and leave no trace of the activity.",
+      "Celebrate the adventure with sportsmanship and camaraderie during the award ceremony."
+    ],
+    "date": "2025-06-11",
+    "description": "Join us for a fun-filled nature scavenger hunt. Search for hidden treasures, solve clues, and embark on an exciting adventure through the wilderness.",
+    "id": 11,
+    "location": "Forest Trail, Adventure Park",
+    "picture": "https://i0.wp.com/whistlermuseum.org/wp-content/uploads/2016/07/claire-ruddy-wildfire.jpg?resize=640%2C853&ssl=1",
+    "program_plan": {
+      "award_ceremony": "1:00 PM - 2:00 PM",
+      "check_in": "9:00 AM",
+      "lunch_break": "12:00 PM - 1:00 PM",
+      "scavenger_hunt": "9:30 AM - 12:00 PM",
+      "start": "9:30 AM"
+    },
+    "title": "Nature Scavenger Hunt"
+  }
+]
